@@ -32,15 +32,6 @@ See hover states for interactive elements
 ![image](https://user-images.githubusercontent.com/93634237/211228809-85ba24a3-9bae-4e92-9127-fd7bd80b07f2.png)
 
 
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: [https://github.com/JavokhirTursunboev/Frontend-Mentor-order-summary-component-main](https://github.com/JavokhirTursunboev/Frontend-Mentor-order-summary-component-main)

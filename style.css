@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+
+  --font: 'Red Hat Display', sans-serif;
+
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--Pale-blue);
+    font-family: var(--font);
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    max-width:320px;
+    margin:0;
+    border-radius: 20px;
+}
+.img_head{
+    position:relative;
+    overflow:hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.img__girl{
+    max-width:100%;
+    height: auto;
+    object-fit:cover;
+}
+.main{
+padding:20px;
+display:flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.header__text{
+   padding-bottom: 20px;
+   padding-top: 10px;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: var(--Dark-blue);
+}
+
+.body__text{
+    font-size: 1.1rem;
+    margin-right: 19px;
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+    line-height: 1.5;
+}
+.payment{
+    display:flex;
+    background-color: var(--Very-pale-blue);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top:20px;
+    align-items: center;
+    justify-content:space-between;
+    min-width: 100%;
+}
+.do__flex{
+    display:flex;
+    flex-direction:column;
+}
+.do__flex .annual{
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: var(--Dark-blue);
+}
+.do__flex .price{
+ font-size: 1rem;
+ color: var(--Desaturated-blue);
+ font-family: var(--font);
+}
+.change__btn{
+    color: var(--Bright-blue);
+    font-weight: 700;
+}
+
+.btn__main{
+    background-color: var(--Bright-blue);
+    width: 100%;
+    padding:15px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border:none;
+    margin-top:25px;
+    box-shadow: 10px 15px 21px  0px rgb(194, 180, 243);
+}
+
+.btn__cancel{
+    margin: 25px;
+    font-weight: 900;
+    font-size:1rem;
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+}
+
+.change__btn:hover{
+    color:rgb(135, 99, 224);
+}
+
+.btn__main:hover{
+    background-color:rgb(135, 99, 224); 
+    color: white;
+}
+.btn__cancel:hover{
+    color: var(--Dark-blue);
+}

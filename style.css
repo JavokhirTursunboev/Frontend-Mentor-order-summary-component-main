@@ -22,7 +22,6 @@ body{
     background-color:var(--Pale-blue);
     font-family: var(--font);
     min-height: 100vh;
-    width: 100%;
     display:flex;
     flex-direction: column;
     align-items:center;

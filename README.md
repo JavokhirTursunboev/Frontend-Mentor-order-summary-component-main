@@ -12,9 +12,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -28,8 +27,11 @@ View the optimal layout depending on their device's screen size
 See hover states for interactive elements
 
 ### Screenshot
+![image](https://user-images.githubusercontent.com/93634237/211228758-a8739b00-cb16-4d9e-83b1-e62971ec4d1c.png)
+![image](https://user-images.githubusercontent.com/93634237/211228790-f9a130d5-30e0-4a68-916f-92ec423c6ce1.png)
+![image](https://user-images.githubusercontent.com/93634237/211228809-85ba24a3-9bae-4e92-9127-fd7bd80b07f2.png)
 
-![](./screenshot.jpg)
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
